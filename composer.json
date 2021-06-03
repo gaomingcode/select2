@@ -1,22 +1,35 @@
 {
-  "name": "gaomingcode/select2",
-  "description": "Select2 is a jQuery based replacement for select boxes.",
-  "type": "library",
-  "homepage": "https://select2.org/",
-  "license": "MIT",
-  "extra": {
-    "component": {
-      "scripts": [
-        "dist/js/select2.js"
-      ],
-      "styles": [
-        "dist/css/select2.css"
-      ],
-      "files": [
-        "dist/js/select2.js",
-        "dist/js/i18n/*.js",
-        "dist/css/select2.css"
-      ]
+    "name": "gaomingcode/select2",
+    "description": "Select2 is a jQuery based replacement for select boxes.",
+    "type": "library",
+    "license": [
+        "MIT"
+    ],
+    "keywords": [
+        "input", "select2", "select"
+    ],
+    "homepage": "https://select2.org/",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Kevin Brown",
+            "url": "https://github.com/kevin-brown"
+        }
+    ],
+    "extra": {
+        "component": {
+            "scripts": [
+                "dist/js/select2.js"
+            ],
+            "styles": [
+                "dist/css/select2.css"
+            ],
+            "files": [
+                "dist/js/select2.js",
+                "dist/js/i18n/*.js",
+                "dist/css/select2.css"
+            ]
+        }
     }
-  }
 }
