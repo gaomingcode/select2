@@ -1,9 +1,17 @@
-Select2
-=======
-![Build Status][github-actions-image]
-[![Financial Contributors on Open Collective](https://opencollective.com/select2/all/badge.svg?label=financial+contributors)](https://opencollective.com/select2)
-[![jsdelivr](https://data.jsdelivr.com/v1/package/npm/select2/badge)][jsdelivr]
-[![cdnjs](https://img.shields.io/cdnjs/v/select2.svg)][cdnjs]
+# Select2
+
+[![GitHub Version](https://img.shields.io/github/release/gaomingcode/select2.svg)](https://github.com/gaomingcode/select2)
+[![Packagist Downloads](https://img.shields.io/packagist/dm/gaomingcode/select2)](https://github.com/gaomingcode/select2)
+[![Packagist License](https://img.shields.io/packagist/l/gaomingcode/select2)](https://github.com/gaomingcode/select2)
+
+## Installation
+
+### Composer
+
+```
+composer require gaomingcode/select2
+``` 
+###
 
 Select2 is a jQuery-based replacement for select boxes. It supports searching,
 remote data sets, and pagination of results.
